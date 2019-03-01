@@ -1,8 +1,8 @@
-﻿using System;
+﻿using System; //same as #include and import
 
-namespace OlaMundo
+namespace OlaMundo // serve para organização dos progrs
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {
