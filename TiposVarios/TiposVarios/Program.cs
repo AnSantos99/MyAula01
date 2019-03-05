@@ -26,11 +26,16 @@ namespace TiposVarios
             float num_float = 3.6374f;
             double num_doub = 3_526.644_326;
 
+            //Boolean variable types
+            bool zero = false;
+            bool one = true;
+
 
             //Variables output
             Console.WriteLine("Output of integer variable values:\n{0}\n{1}\n{2}\n{3}\n ", num_int, unsign_int, long_int, long_unsignint);
             Console.WriteLine("Output of char variable values:\n{0}\n{1}\n{2}\n{3}\n", yen_sign, registered_sign, cyrillic_letterZhe, letter_phi);
-            Console.WriteLine("Output of floating variable values:\n{0}\n{1}", num_float, num_doub);
+            Console.WriteLine("Output of floating variable values:\n{0}\n{1}\n", num_float, num_doub);
+            Console.WriteLine("{0}\n{1}\n", zero, one);
         }
     }
 }
