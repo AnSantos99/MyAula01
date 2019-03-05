@@ -11,7 +11,7 @@ namespace TiposVarios
 
 
             //Integers of diferent types.
-            int num_inteiro = 4;
+            int num_int = 4;
             uint unsign_int = 12U;
             long long_int = 134L;
             ulong long_unsignint = 11UL;
@@ -22,11 +22,15 @@ namespace TiposVarios
             char cyrillic_letterZhe = '\u0416';
             char letter_phi = '\u03A6';
 
+            //Diferent types of float variables
+            float num_float = 3.6374f;
+            double num_doub = 3_526.644_326;
 
 
             //Variables output
-            Console.WriteLine("{0}\n{1}\n{2}\n{3}\n ", num_inteiro, unsign_int, long_int, long_unsignint);
-            Console.WriteLine("{0}\n{1}\n{2}\n{3}\n", yen_sign, registered_sign, cyrillic_letterZhe, letter_phi);
+            Console.WriteLine("Output of integer variable values:\n{0}\n{1}\n{2}\n{3}\n ", num_int, unsign_int, long_int, long_unsignint);
+            Console.WriteLine("Output of char variable values:\n{0}\n{1}\n{2}\n{3}\n", yen_sign, registered_sign, cyrillic_letterZhe, letter_phi);
+            Console.WriteLine("Output of floating variable values:\n{0}\n{1}", num_float, num_doub);
         }
     }
 }
